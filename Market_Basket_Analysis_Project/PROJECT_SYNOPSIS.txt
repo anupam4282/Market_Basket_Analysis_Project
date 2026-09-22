@@ -1,0 +1,32 @@
+MARKET BASKET ANALYSIS
+
+Goal:
+Identify product associations from transaction data to improve cross-selling and recommendation strategies.
+
+Problem Statement:
+Online stores and supermarkets generate large amounts of transaction data. It is difficult to manually identify which products customers commonly purchase together. Market Basket Analysis uses association-rule mining to discover these relationships.
+
+Methodology:
+1. Collect transaction-level product data.
+2. Convert transactions into a one-hot encoded basket matrix.
+3. Apply the Apriori algorithm.
+4. Generate frequent itemsets using minimum support.
+5. Generate association rules using minimum confidence.
+6. Evaluate rules using Support, Confidence and Lift.
+7. Visualize results in an interactive Streamlit dashboard.
+8. Convert strong rules into actionable business recommendations.
+
+Expected Outcome:
+The system identifies combinations such as products that are frequently bought together and recommends strategies such as product bundles, cart recommendations, promotions and product placement.
+
+Technology:
+Python, Pandas, Streamlit, MLxtend, Matplotlib, Seaborn.
+
+Main Modules:
+- Data Loading
+- Basket Transformation
+- Frequent Itemset Mining
+- Association Rule Generation
+- Rule Evaluation
+- Visualization
+- Business Insight Generation
